@@ -3,6 +3,7 @@
 ## Introduction to Cryptography
 
 ### Definition and purpose of cryptography
+-----------------
 Most of the time, people misunderstand the concept of cryptography or perceive it as a daunting and complex topic. 😕 However, the truth is that cryptography is not as intimidating as it may seem. In fact, it can be quite fascinating and easy to understand. 🤩 To demystify this intriguing field, let's delve into a story that illustrates the essence of cryptography in a simple and engaging manner. 📚🔐
 
 Story: Sir Alex and the Magical Encryption 🛡️🔑
@@ -27,6 +28,7 @@ In the real world, cryptography is used to secure sensitive information transmit
 
 
 ### Historical overview of cryptography
+----------
 Long, long ago, before the age of computers and smartphones, people had a burning desire to keep their messages secret. But how did they do it without fancy encryption algorithms? Well, they got creative!
 
 Imagine you're living in ancient times, where people used to communicate through written letters. You write a letter to your friend, but you don't want others to understand its content if it falls into the wrong hands. What would you do?
@@ -49,8 +51,31 @@ And now, in the digital age, we have sophisticated algorithms and complex mathem
 
 So, the next time you send a private message or make a secure online transaction, remember the long and exciting history of cryptography. It's a story of human ingenuity and the quest to protect our secrets throughout the ages.
 
-- Importance of cryptography in modern society
-- Goals and principles of cryptography
+### Goals and principles of cryptography
+------
+The main goal of cryptography is to keep information safe and secure. It does this by following a set of principles that ensure confidentiality, integrity, authenticity, and availability of the information.
+
+**Confidentiality:**
+
+ Imagine you have a secret diary where you write down your thoughts and feelings. You want to make sure that nobody else can read it. Cryptography helps by turning your diary into a secret code that only you can understand. It keeps your private thoughts hidden and confidential, protecting them from prying eyes.
+
+**Integrity**: 
+
+Let's say you have an important document that you need to send to someone. You want to make sure that the document arrives exactly as you sent it, without any changes or tampering. Cryptography ensures the integrity of the document by adding a special code or signature to it. When the recipient receives the document, they can verify the code to ensure that it hasn't been altered during transmission.
+
+**Authenticity**:
+
+ Imagine you're ordering a package online. You want to be sure that the package is coming from a genuine and trustworthy source. Cryptography can help establish authenticity by using digital signatures. The sender adds a unique signature to the package, which serves as proof of their identity. When you receive the package, you can check the signature to ensure that it indeed came from the authentic sender.
+
+**Availability**:
+
+ Let's say you have encrypted a sensitive file on your computer to protect it from unauthorized access. While it's important to keep it secure, you also need to be able to access and use the file when you need it. Cryptography ensures availability by allowing you, as the authorized user, to decrypt the file using a secret key and access the information whenever necessary.
+
+**Key Management**:
+
+ To keep information secure, cryptography relies on the use of keys. Keys are like secret codes that are used to encrypt and decrypt information. It's crucial to manage these keys properly. Just like you would keep a physical key to your house safe, cryptographic key management ensures that the keys are generated, stored, and shared securely so that only authorized individuals can access the encrypted information.
+
+By following these goals and principles, cryptography helps protect sensitive information, secure digital communication, verify identities, and maintain trust in our online interactions. It ensures that our secrets remain secret, our data stays intact, and our transactions are safe from unauthorized access or manipulation.
 
 ## Basic Terminologies in Cryptography
 - Plaintext and ciphertext
